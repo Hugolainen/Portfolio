@@ -1,0 +1,32 @@
+.contactMe_Title{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    & + p{
+        line-height: 2.1rem;
+        font-size: 1.5rem;
+    }
+}
+
+.skillTag{
+    border-radius: 5px;
+    background-color: white;
+    line-height: 2rem;
+    padding: 0 0.5rem;
+}
+
+.portfolioPicture{
+    border-radius:50%;
+    height: 400px;
+}
+
+.divLine{
+    width: 800px;
+    margin: auto;
+    border-bottom: 5px solid $primary;
+}
+
+h1 + h2{
+    font-size: 2rem;
+    color: $dark;
+}
