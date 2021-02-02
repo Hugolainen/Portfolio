@@ -15,11 +15,29 @@ getAsync().then((data) =>
 
     generateCardGallery(projectGallery, dev_projectList, "dev");
     generateCardGallery(projectGallery, eng_projectList, "eng");
-
+    uniformCardHeight(projectGallery);
 });
+
+function uniformCardHeight(galleryElement){
+    var maxHeight = 0;
+
+    for(let i=0; i<galleryElement.children().length;i++){
+        if(galleryElement.children().eq(i).children().eq(0).children().eq(1).height() > maxHeight)
+        {
+            maxHeight = galleryElement.children().eq(i).children().eq(0).children().eq(1).height();
+        }
+    }
+
+    for(let i=0; i<galleryElement.children().length;i++){
+        galleryElement.children().eq(i).children().eq(0).children().eq(1).height(maxHeight);
+    }
+
+    
+}
 
 // RecipeCard gallery element generation
 function generateCardGallery(galleryElement, cardDatalist, type){
+    var maxHeight = 0;
     for(let i=0; i<cardDatalist.length;i++){
         galleryElement.append(generateProjectCard(cardDatalist[i], type));
     }
@@ -32,7 +50,6 @@ function generateProjectCard(cardData, type)
 
     var card = $("<div> </div>");
     card.addClass("card bg-info shadow");
-    card.attr("style", "height:fit-content");
     
     // Image
     var image=$("<img >");
@@ -43,7 +60,7 @@ function generateProjectCard(cardData, type)
 
     // Card-body
     var cardBody =  $("<div> </div>");
-    cardBody.addClass("card-body");
+    cardBody.addClass("card-body d-flex flex-column justify-content-between");
 
     var title = $("<h4> </h4>").text(cardData.title);
     title.addClass("card-title cardStyle__title");
@@ -112,17 +129,19 @@ function generateProjectCard(cardData, type)
 
 ///////// Project card HTML code
 /*
-    <div class="card bg-info my-3" style="width:350px">
-        <img class="card-img-top" style="height:180px" src="images/Reservia.png" alt="Reservia">
-        <div class="card-body">
-            <h4 class="card-title"> Reservia </h4>
-            <p class="card-text"> A hotel reservation mock-up turned into a web page </p>
-            <ul class="list-inline">
-                <li class="list-inline-item skillTag"> HTML </li>
-                <li class="list-inline-item skillTag"> CSS </li>
-            </ul>
-            <a target="_blank" href="https://hugolainen.github.io/Reservia/public/" class="btn btn-primary">Live</a>
-            <a target="_blank" href="https://github.com/Hugolainen/Reservia" class="btn btn-primary">Code</a>
+    <div class="p-3 col-lg-4 col-10 m-auto">
+        <div class="card bg-info my-3" style="width:350px">
+            <img class="card-img-top" style="height:180px" src="images/Reservia.png" alt="Reservia">
+            <div class="card-body">
+                <h4 class="card-title"> Reservia </h4>
+                <p class="card-text"> A hotel reservation mock-up turned into a web page </p>
+                <ul class="list-inline">
+                    <li class="list-inline-item skillTag"> HTML </li>
+                    <li class="list-inline-item skillTag"> CSS </li>
+                </ul>
+                <a target="_blank" href="https://hugolainen.github.io/Reservia/public/" class="btn btn-primary">Live</a>
+                <a target="_blank" href="https://github.com/Hugolainen/Reservia" class="btn btn-primary">Code</a>
+            </div>
         </div>
     </div>
 */
