@@ -1,5 +1,5 @@
 # Portfolio
-<strong> This project is my own personal portfolio, it is coded using HTML, Bootstrap4 and JavaScript and offers direct link to both the code and live version (or documentation) of projects I led. <strong>
+<strong> This project is my own personal portfolio, it is coded using HTML, Bootstrap4 and JavaScript and offers direct link to both the code and live version (or documentation) of projects I led. </strong>
 
 I am a French engineer living in Finland.
 
