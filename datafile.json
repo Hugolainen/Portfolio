@@ -1,0 +1,70 @@
+{
+    "Dev_projects":[
+        {
+            "title": "Reservia",
+            "desc": "A hotel reservation mock-up turned into a web page",
+            "tags": ["HTML", "CSS"],
+            "img": "images/Reservia.png",
+            "linkLive": "https://hugolainen.github.io/Reservia/public",
+            "linkCode": "https://github.com/Hugolainen/Reservia"
+        },
+        {
+            "title": "OhMyFood",
+            "desc": "A mobile website mock-up turned into a web page with CSS only animations",
+            "tags": ["HTML", "CSS","Sass"],
+            "img": "images/OhMyFood.png",
+            "linkLive": "https://hugolainen.github.io/Ohmyfood",
+            "linkCode": "https://github.com/Hugolainen/Ohmyfood"
+        },
+        {
+            "title": "GameOn",
+            "desc": "A landing page for a gaming event with a Sign-up modal form",
+            "tags": ["HTML", "CSS", "JavaScript"],
+            "img": "images/GameOn.png",
+            "linkLive": "https://hugolainen.github.io/GameOn",
+            "linkCode": "https://github.com/Hugolainen/GameOn"
+        },
+        {
+            "title": "FishEye",
+            "desc": "An accessible website to browse and contact freelancing photographers",
+            "tags": ["HTML", "CSS", "Sass", "JavaScript", "JSON"],
+            "img": "images/FishEye.png",
+            "linkLive": "https://hugolainen.github.io/FishEye",
+            "linkCode": "https://github.com/Hugolainen/FishEye"
+        },
+        {
+            "title": "Les-Petits-Plats",
+            "desc": "A search engine tool for a recipe database",
+            "tags": ["HTML", "Bootstrap4", "JavaScript", "jQuery", "JSON"],
+            "img": "images/LesPetitsPlats.png",
+            "linkLive": "https://hugolainen.github.io/Les-petits-plats",
+            "linkCode": "https://github.com/Hugolainen/Les-petits-plats"
+        },
+        {
+            "title": "Portfolio",
+            "desc": "A hotel reservation mock-up turned into a web page",
+            "tags": ["HTML", "Bootstrap4", "JavaScript", "jQuery", "JSON"],
+            "img": "images/Portfolio.png",
+            "linkLive": "https://hugolainen.github.io/Portfolio",
+            "linkCode": "https://github.com/Hugolainen/Portfolio"
+        }
+    ],
+    "Eng_projects":[
+        {
+            "title": "Car tire OCR",
+            "desc": "An optical character recognition application on 3D images of car tires",
+            "tags": ["C/C++", "C# interface", "Image programming"],
+            "img": "images/OCR.png",
+            "linkDocu": "#",
+            "linkCode": "https://github.com/Hugolainen/CarTire_OCR"
+        },
+        {
+            "title": "Production line HMI",
+            "desc": "A 3-level monitoring application for a simulated production line",
+            "tags": ["C/C++", "C# interface", "straton", "Modbus"],
+            "img": "images/ProductionLine.png",
+            "linkDocu": "documentations/UserGuide_Demonstration.pdf",
+            "linkCode": "https://github.com/Hugolainen/ProductionLine"
+        }
+    ]
+}
