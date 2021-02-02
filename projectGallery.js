@@ -21,18 +21,19 @@ getAsync().then((data) =>
 // RecipeCard gallery element generation
 function generateCardGallery(galleryElement, cardDatalist, type){
     for(let i=0; i<cardDatalist.length;i++){
-        galleryElement.append(generateCard(cardDatalist[i], type));
+        galleryElement.append(generateProjectCard(cardDatalist[i], type));
     }
 }
 
 function generateProjectCard(cardData, type)
 {
     var card = $("<div> </div>");
-    card.addClass("card bg-info border-light shadow-sm my-3");
-    card.attr("width", "350px");
+    card.addClass("card bg-info shadow-sm my-3");
+    card.attr("style", "width:350px");
     
     // Placeholder image
     var image=$("<img src=\"" + cardData.img + "\" class=\"card-img-top\" alt=\"" + cardData.title + "\">");
+    image.attr("style", "height:180px");
 
     // Card-body
     var cardBody =  $("<div> </div>");
@@ -76,7 +77,7 @@ function generateProjectCard(cardData, type)
 
     cardBody.append(title);
     cardBody.append(desc);
-    cardBody.append(taglist);
+    cardBody.append(tagList);
     cardBody.append(buttonView);
     cardBody.append(buttonCode);
 
