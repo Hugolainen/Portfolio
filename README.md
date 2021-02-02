@@ -6,3 +6,5 @@ I am a French engineer living in Finland.
 I have two years of professional experience in the Smart-Industries field as a technical consultant working in automation, HMI/SCADA design, machine vision and industrial computing in general.
 
 Though my scholarship, I also grew decent skills in the back-end languages and an interest for the software development. I am investing my free-time working through the OpenClassrooms Front-End Developer path to get a more professional and versatile developer skillset.
+
+Direct link: https://hugolainen.github.io/Portfolio/
