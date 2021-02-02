@@ -55,7 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -552,17 +552,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 1024px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1440px;
   }
 }
 .row {
@@ -5540,7 +5540,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5642,7 +5642,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9933,32 +9933,144 @@ h3 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+@media (max-width: 450px) {
+  .contactMe_Title {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 400px) {
+  .contactMe_Title {
+    font-size: 0.8rem;
+  }
+}
 .contactMe_Title + p {
   line-height: 2.1rem;
   font-size: 1.5rem;
 }
+@media (max-width: 500px) {
+  .contactMe_Title + p {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 400px) {
+  .contactMe_Title + p {
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+  }
+}
 
-.skillTag {
-  border-radius: 5px;
-  background-color: white;
-  line-height: 2rem;
-  padding: 0 0.5rem;
+.divLine {
+  width: 200px;
+  margin: auto;
+  border-bottom: 5px solid #004b95;
+}
+@media (min-width: 500px) {
+  .divLine {
+    width: 400px;
+  }
+}
+@media (min-width: 750px) {
+  .divLine {
+    width: 600px;
+  }
+}
+@media (min-width: 1000px) {
+  .divLine {
+    width: 800px;
+  }
+}
+@media (min-width: 1300px) {
+  .divLine {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1000px) {
+  .header__title {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: 100px;
+  }
+}
+.header__complement {
+  font-size: 2rem;
+  color: #505050;
+  margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  .header__complement {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1000px) {
+  .header__complement {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: 160px;
+    text-align: right;
+  }
 }
 
 .portfolioPicture {
   border-radius: 50%;
   height: 400px;
+  width: 400px;
+}
+@media (min-width: 1000px) {
+  .portfolioPicture {
+    position: relative;
+    left: -200px;
+    top: 0;
+  }
+}
+@media (max-width: 500px) {
+  .portfolioPicture {
+    height: 300px;
+    width: 300px;
+  }
 }
 
-.divLine {
-  width: 800px;
-  margin: auto;
-  border-bottom: 5px solid #004b95;
+.cardStyle__image {
+  object-fit: cover;
 }
-
-h1 + h2 {
+.cardStyle__title {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  background-color: #75a2bf;
+  padding: 1rem;
+  padding-left: 2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: white;
   font-size: 2rem;
-  color: #505050;
+}
+@media (max-width: 500px) {
+  .cardStyle__title {
+    font-size: 1.5rem;
+  }
+}
+.cardStyle__desc {
+  font-size: 1.1rem;
+}
+.cardStyle__tag {
+  border-radius: 5px;
+  background-color: white;
+  line-height: 2.5rem;
+  padding: 0 0.8rem;
+  font-size: 1.2rem;
+}
+.cardStyle__button {
+  font-size: 1.2rem;
+  white-space: nowrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /*# sourceMappingURL=style.css.map */

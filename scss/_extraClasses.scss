@@ -2,31 +2,146 @@
     font-weight: bold;
     font-size: 1.5rem;
 
+    @media (max-width: 450px) {
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 0.8rem;
+    }
+
     & + p{
         line-height: 2.1rem;
         font-size: 1.5rem;
+
+        @media (max-width: 500px) {
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 400px) {
+            line-height: 1.2rem;
+            font-size: 0.7rem;
+        }
     }
 }
 
-.skillTag{
-    border-radius: 5px;
-    background-color: white;
-    line-height: 2rem;
-    padding: 0 0.5rem;
+
+.divLine{
+    width:200px;
+
+    @media (min-width: 500px) {
+        width: 400px;
+    }
+
+    @media (min-width: 750px) {
+        width: 600px;
+    }
+
+    @media (min-width: 1000px) {
+        width: 800px;
+    }
+
+    @media (min-width: 1300px) {
+        width: 1000px;
+    }
+
+    margin: auto;
+    border-bottom: 5px solid $primary;
+}
+
+.header{
+    &__title{
+        @media (max-width: 500px) {
+            font-size: 2rem;
+        }
+
+        @media (min-width: 1000px) {
+            position: absolute;
+            left:calc(50% + 50px);
+            top: 100px;
+        }
+    }
+
+    &__complement{
+        font-size: 2rem;
+        color: $dark;
+        margin-bottom: 1rem;
+        @media (max-width: 500px) {
+            font-size: 1.5rem;
+        }
+
+        @media (min-width: 1000px) {
+            position: absolute;
+            left:calc(50% + 50px);
+            top: 160px;
+            text-align: right;
+        }
+    }
+    
 }
 
 .portfolioPicture{
     border-radius:50%;
     height: 400px;
+    width:400px;
+
+    @media (min-width: 1000px) {
+        position:relative;
+        left:-200px;
+        top: 0;
+    }
+
+    @media (max-width: 500px) {
+        height: 300px;
+        width: 300px;
+    }
 }
 
-.divLine{
-    width: 800px;
-    margin: auto;
-    border-bottom: 5px solid $primary;
-}
 
-h1 + h2{
-    font-size: 2rem;
-    color: $dark;
+
+
+
+.cardStyle{
+
+    &__image{
+        object-fit:cover;
+    }
+
+    &__title{
+        position: absolute;
+        top:20px;
+        left: 0px;
+        background-color: $secondary;
+        padding: 1rem;
+        padding-left:2rem;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        color: white;
+        font-size: 2rem;
+
+        @media (max-width: 500px) {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__desc{
+        font-size: 1.1rem;
+
+    }
+
+    &__tag{
+        border-radius: 5px;
+        background-color: white;
+        line-height: 2.5rem;
+        padding: 0 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    &__button{
+        font-size: 1.2rem;
+        white-space: nowrap;
+        word-wrap: break-word;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
 }
