@@ -59,7 +59,7 @@
             "linkCode": "https://github.com/Hugolainen/CarTire_OCR"
         },
         {
-            "title": "Production line HMI",
+            "title": "Virtual production line",
             "desc": "A 3-level monitoring application for a simulated production line",
             "tags": ["C/C++", "C# interface", "straton", "Modbus"],
             "img": "images/ProductionLine.png",
