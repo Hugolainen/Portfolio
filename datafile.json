@@ -2,7 +2,7 @@
     "Dev_projects":[
         {
             "title": "Reservia",
-            "desc": "A hotel reservation mock-up turned into a web page",
+            "desc": "A hotel reservation web platform. The objective was to reproduce a mock-up using HTML and CSS for the 1st time.",
             "tags": ["HTML", "CSS"],
             "img": "images/Reservia.png",
             "linkLive": "https://hugolainen.github.io/Reservia/public",
@@ -10,7 +10,7 @@
         },
         {
             "title": "OhMyFood",
-            "desc": "A mobile website mock-up turned into a web page with CSS only animations",
+            "desc": "A mobile focused website to order food from a selection of restaurants. The objective was to reproduce a mock-up using Sass for the 1st time and with a focus on CSS animations.",
             "tags": ["HTML", "CSS","Sass"],
             "img": "images/OhMyFood.png",
             "linkLive": "https://hugolainen.github.io/Ohmyfood",
@@ -18,7 +18,7 @@
         },
         {
             "title": "GameOn",
-            "desc": "A landing page for a gaming event with a Sign-up modal form",
+            "desc": "A landing page for a gaming event with a Sign-up modal form. The objective was to add some functionnalities to an existing web-page using JavaScript for the 1st time.",
             "tags": ["HTML", "CSS", "JavaScript"],
             "img": "images/GameOn.png",
             "linkLive": "https://hugolainen.github.io/GameOn",
@@ -26,7 +26,7 @@
         },
         {
             "title": "FishEye",
-            "desc": "An accessible website to browse and contact freelancing photographers",
+            "desc": "An accessible website to browse and contact freelancing photographers. The objective was to reproduce a mock-up using Bootstrap for the 1st time.",
             "tags": ["HTML", "CSS", "Sass", "JavaScript", "JSON"],
             "img": "images/FishEye.png",
             "linkLive": "https://hugolainen.github.io/FishEye",
@@ -34,15 +34,31 @@
         },
         {
             "title": "Les-Petits-Plats",
-            "desc": "A search engine tool for a recipe database",
+            "desc": "A search engine tool for a recipe database. The objectives were to write down a technical investigation sheet on the search functionalityand to code and compare the performance of different algorithms.",
             "tags": ["HTML", "Bootstrap4", "JavaScript", "jQuery", "JSON"],
             "img": "images/LesPetitsPlats.png",
             "linkLive": "https://hugolainen.github.io/Les-petits-plats",
             "linkCode": "https://github.com/Hugolainen/Les-petits-plats"
         },
         {
+            "title": "Billed",
+            "desc": "An internal bill management tool. The objectives were to debug the existing code, add unit and integration tests and finally write a E2E test plan",
+            "tags": ["React", "Jest", "Unit test", "Integration test", "Debug"],
+            "img": "images/Billed.png",
+            "linkLive": "#",
+            "linkCode": "https://github.com/Hugolainen/Billed"
+        },
+        {
+            "title": "Kasa",
+            "desc": "An accomodation rental web platform. The objective was to reproduce a mock-up using React and React router for the 1st time.",
+            "tags": ["React", "React router", "Sass"],
+            "img": "images/Kasa.png",
+            "linkLive": "https://hugolainen.github.io/Kasa",
+            "linkCode": "https://github.com/Hugolainen/Kasa"
+        },
+        {
             "title": "Portfolio",
-            "desc": "A hotel reservation mock-up turned into a web page",
+            "desc": "My personal portfolio.",
             "tags": ["HTML", "Bootstrap4", "JavaScript", "jQuery", "JSON"],
             "img": "images/Portfolio.png",
             "linkLive": "https://hugolainen.github.io/Portfolio",
