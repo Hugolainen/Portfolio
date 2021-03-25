@@ -10020,6 +10020,7 @@ h3 {
   border-radius: 50%;
   height: 400px;
   width: 400px;
+  object-fit: cover;
 }
 @media (min-width: 1000px) {
   .portfolioPicture {
