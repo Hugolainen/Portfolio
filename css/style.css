@@ -10058,6 +10058,7 @@ h3 {
 }
 .cardStyle__desc {
   font-size: 1.1rem;
+  text-align: justify;
 }
 .cardStyle__tag {
   border-radius: 5px;

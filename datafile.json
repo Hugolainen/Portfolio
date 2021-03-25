@@ -42,7 +42,7 @@
         },
         {
             "title": "Billed",
-            "desc": "An internal bill management tool. The objectives were to debug the existing code, add unit and integration tests and finally write a E2E test plan",
+            "desc": "An internal bill management tool. The objectives were to debug the existing code, add unit and integration tests and finally write a E2E test plan.",
             "tags": ["React", "Jest", "Unit test", "Integration test", "Debug"],
             "img": "images/Billed.png",
             "linkLive": "#",
@@ -68,7 +68,7 @@
     "Eng_projects":[
         {
             "title": "Car tire OCR",
-            "desc": "An optical character recognition application on 3D images of car tires",
+            "desc": "An optical character recognition application on 3D images of car tires.",
             "tags": ["C/C++", "C# interface", "Image programming"],
             "img": "images/OCR.png",
             "linkDocu": "#",
@@ -76,7 +76,7 @@
         },
         {
             "title": "Virtual production line",
-            "desc": "A 3-level monitoring application for a simulated production line",
+            "desc": "A 3-level monitoring application for a simulated production line.",
             "tags": ["C/C++", "C# interface", "straton", "Modbus"],
             "img": "images/ProductionLine.png",
             "linkDocu": "documentations/UserGuide_Demonstration.pdf",

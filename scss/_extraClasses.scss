@@ -102,7 +102,6 @@
 
 
 .cardStyle{
-
     &__image{
         object-fit:cover;
     }
@@ -126,7 +125,7 @@
 
     &__desc{
         font-size: 1.1rem;
-
+        text-align: justify;
     }
 
     &__tag{
